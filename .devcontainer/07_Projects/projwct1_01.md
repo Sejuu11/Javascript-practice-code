@@ -68,3 +68,21 @@ form.addEventListener('submit', function(e){
 });
 
 ```
+
+## project 3 solution
+``` javascript
+
+const clock=document.getElementById('clock')
+//document.querySelector('#clock')
+
+setInterval(function(){
+  let date= new Date()
+  clock.innerHTML= date.toLocaleTimeString();
+  //console.log(date.toLocaleTimeString());
+}, 1000); // setinterval is used for event that occurs continuously , that gives the updated time continuously 1000ms means after 1sec.
+
+
+
+
+
+```
